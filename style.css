@@ -1,0 +1,282 @@
+/*.content-heading{
+	background-image: url(2.jpg);
+	min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-heading img{
+opacity: .4;
+}
+*/
+.bg-light {
+    background-color: #d2e3f4!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 0);
+}
+a:hover {
+    color: #e3e627;
+    text-decoration: underline;
+    text-decoration: none;
+}
+input.bg-dark.text-light {
+   
+    box-shadow: 0px 5px 23px 1px white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 24px;
+}
+
+.slider{
+  width: 100%;  
+  display: block;
+  position: relative;
+	min-height: 300px;  
+}
+.header-slider{
+  position: relative;
+}
+.content-heading {
+  background-image:url(5.jpg);
+   opacity: 0.5;
+   position: absolute;
+   z-index: -1;   
+  	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+.header-detail.navbar-nav
+{
+  flex-direction:unset;
+}
+.header-detail.nav-item{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+.nav-item{
+	margin-left: 45px;
+}
+
+.secondary-button{
+	background-color: #ffd626;
+	color: black;
+	padding: 13px;
+	border-radius: 5px;
+	width: 150px;
+	border: 0px solid;
+
+	 
+}
+.secondary-button:hover{
+	background-color: black;
+	color: white;
+}
+ .secondary-button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 0%;
+    -webkit-transition: .2s height;
+    transition: .2s height;
+    z-index: -1;
+}
+.images {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px 3px 25px 1px ;
+}
+.section-mid {
+    margin-top: 100px;
+   /* margin-bottom: 100px;*/
+}
+h3{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.background{
+	min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section{
+	position: relative;
+	margin-top: 50px;
+}
+.md-section{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.data{
+	margin-left: 55%;
+}
+.bg-img.bg-half {
+    width: 50%;
+    background-attachment: scroll;
+}
+.bg-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+    opacity: .9;
+}
+.container {
+   /* padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;*/
+}
+.title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    height: 80px;
+    background-color: #ffd626;
+}
+.col-md-3{
+	float: left;
+}
+.number{
+  background-color: yellow;
+  width: 100%;
+  
+  
+}
+.number.row{
+  margin: 0px;
+}
+.number-data{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.font{
+    float: left;
+    padding: 11px;
+    margin-right: 10px;
+}
+.font h3{
+	margin-bottom: 0px;
+}
+
+/*services we offered*/
+.services {
+    width: 100%;
+  /*  height: 600px;*/
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0px;
+    position: relative;
+}
+.services-text {
+    z-index: 1;
+    font-family: monospace;
+    text-transform: capitalize;
+  }
+.services-text h1 {
+
+    background: -webkit-linear-gradient(#fc0e0e, #f6e1f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 3rem;
+   
+}
+} 
+  
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+div#demo {
+    width: 100%;
+    height: 350px;
+    }
+div#demo img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-control-prev-icon {
+    width: 39px;
+    height: 45px;
+}
+.carousel-control-next-icon {
+    width: 39px;
+    height: 45px;
+}
+/*enquery Form*/
+.contact {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.contact-form {
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 4px 5px 14px 4px black;
+    }
+ .contact-form hr {
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+    border: 1px solid;
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 44%;
+    margin-left: 0px;
+}
+/*Footer part*/
+.footer-first ul{
+  list-style: none;
+}
+.footer {
+    background-color: black;
+    color: white;
+    min-height: 300px;
+}
+.footer-first{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.copyright.row{
+  margin: 0px;
+  background-color: #343a40;
+  color: white;
+}
+.footer-first ul li{
+padding: 15px;
+}
