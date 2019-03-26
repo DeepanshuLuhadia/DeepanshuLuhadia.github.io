@@ -18,14 +18,14 @@
 
 			  <!-- Links -->
 				<ul class="header-detail navbar-nav col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-			    	<li class="header-detail nav-item col-lg-6 col-md-6 col-sm-6 col-xs-6" style="margin-left:auto;">
+			    	<li class="header-detail nav-item col-lg-5 col-md-5 col-sm-5 col-xs-5">
 			    		  <a class="nav-link text-dark" href="#"><i class="fa fa-map-marker text-danger" aria-hidden="true"></i>43 shilp colony khatipura road jhotwara jaipur</a>
 			    	</li>
-			    	<li class="header-detail nav-item col-lg-3 col-md-2 col-sm-2 col-xs-2">
+			    	<li class="header-detail nav-item col-lg-3 col-md-3 col-sm-3 col-xs-3">
 			    		  <a class="nav-link text-dark" href="#"><i class="fa fa-phone text-dark" aria-hidden="true"></i>7610090041</a>
 			    	</li>
-			    	<li class="header-detail nav-item col-lg-3 col-md-3 col-sm-3 col-xs-3	">
-			    		  <a class="nav-link text-dark" href="#"><i class="fa fa-envelope text-warning" aria-hidden="true"></i>Deepanshujain388@gmail.com</a>
+			    	<li class="header-detail nav-item col-lg-4 col-md-4 col-sm-4 col-xs-4">
+			    		  <a class="nav-link text-dark col-sm-12 col-lg-12 col-md-12" href="#"><i class="fa fa-envelope text-warning" aria-hidden="true"></i>Deepanshujain388@gmail.com</a>
 			    	</li>
 
 			    
@@ -35,7 +35,7 @@
 		<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
 			<a class="navbar-brand" href="#">
 			
-				<div class=" logo" style="position:absolute;width: 15%;left: -20px;top: -9px;">
+				<div class=" logo" style="position:absolute; width: 20%;left: -20px;top: -9px;">
 					<img src="logow.png" alt="logo" style="width:100%; height: 100%;">
 				</div>
 			</a>
@@ -70,7 +70,7 @@
 		      	</li>
 		      	<li class="nav-item" >
 		        	
-		        	<a href=""><i class="fa fa-search" aria-hidden="true"> </i></a> <input type="search" name="search" placeholder="search" class="bg-dark text-light" >
+		        	<a href=""><i class="fa fa-search" aria-hidden="true"> </i></a> <input type="search" name="search" placeholder="search" class="bg-dark text-light" id="searchBar" >
 		      	</li>
 		      
 		      	<li class="nav-item">
@@ -98,7 +98,7 @@
 				<button class="secondary-button"> Learn More</button>
 			</div>
 	</div>
-	<div class="contents">
+	<div class="contents" id="Content">
 		<div class="section-mid">
 			<div class="row">
 				<div class="col-lg-4">
@@ -198,9 +198,9 @@
 			
 			</div>
 		</div>
-		<div class="col-lg-12 col-sm-12 col-xl-12 services">
+		<div class="row services">
 			<div class="col-lg-12 col-sm-12 col-xl-12 services-text" style="position: absolute;"><h1> Services we offered</h1></div>
-			<div id="demo" class="carousel slide" data-ride="carousel">
+			<div class="col-lg-12 col-sm-12 col-xl-12" id="demo" class="carousel slide" data-ride="carousel">
 
 			  <!-- Indicators -->
 			  <ul class="carousel-indicators">
@@ -270,10 +270,35 @@
 						    </div>
 						    <input type="File" class="form-control" name="sampleImage" accept="image/x-png,image/gif,image/jpeg">
 							</div>													   <p class="text-capitalize text-danger text-right">add the sample image of item which you want to buy</p>
-						<div class="col-lg-offset-6"><input type="submit"  class="btn btn-outline-success col-lg-offset-6 col-lg-2 " name="Submit" value="Submit"></div>
+						<div class="row" style="margin-bottom: 20px;">
+							<div class="col-lg-4 col-md-4 col-sm-4 "></div><div class="col-lg-5 col-md-5 col-sm-5"><input type="submit"  class="btn btn-outline-success  " name="Submit" value="Submit"></div>
+						</div>
 					</form>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xl-6 contact-text"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.8545877069128!2d75.75658995007473!3d26.939823983033058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db30aeb79aecd%3A0x22e4d706163c4d24!2s43%2C+Shilp+Colony%2C+Vasudev+Puri%2C+Prem+Nagar%2C+Jhotwara%2C+Jaipur%2C+Rajasthan+302012!5e0!3m2!1sen!2sin!4v1553496314303"   frameborder="1" style="border:0; width: 100%; height: auto;" allowfullscreen></iframe></div>	<div></div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xl-6 contact-detail">
+						<h2 class="text-center mb-5">About Owner</h2>
+					<div class="row">
+						<div class="contact-text col-lg-12 col-md-12 col-sm-12 col-xl-12 ">
+							<div class="media border p-1 ">
+ 							   <img src="11.jpg" alt="Deepanshu" class="mr-5 mt-3 rounded-circle" style="width:100px;">
+							    <div class="media-body">
+							      <h4>Deepanshu Jain <small><i>established firm on February 19, 2010</i></small></h4>
+							      <p>we deliver products from the heart . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>      
+							    </div>
+  							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 contact-location">
+							<p class="text-capitalize text-center text-primary">you can find us over here</p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.8545877069128!2d75.75658995007473!3d26.939823983033058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db30aeb79aecd%3A0x22e4d706163c4d24!2s43%2C+Shilp+Colony%2C+Vasudev+Puri%2C+Prem+Nagar%2C+Jhotwara%2C+Jaipur%2C+Rajasthan+302012!5e0!3m2!1sen!2sin!4v1553496314303"   frameborder="1" style="border:0; width: 100%; height: auto;" allowfullscreen></iframe>
+
+						</div>
+					</div>
+				</div>
 			
 		</div>
 		<div class="footer">
@@ -319,4 +344,15 @@
 			</div>
 	</div>
 </body>
+<script>
+	$(document).ready(function(){
+  $("#searchBar").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#Content *").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+</script>
 </html>
