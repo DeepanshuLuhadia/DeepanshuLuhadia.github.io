@@ -10,12 +10,34 @@
 opacity: .4;
 }
 */
-@media only screen and (max-width: 749px) {		
+
+    
+
+    @media only screen and (min-width: 750px) 
+    {       
+        .logo{
+            position:absolute;
+            width: 10%;
+            left:0px;
+            top: 0px;
+        }
+        .bg-img.bg-half 
+        {
+            width: 50%;
+            background-attachment: scroll;
+        }
+        .data
+        {
+            margin-left: 50%;
+        }
+
+    }
+    @media only screen and (max-width: 751px) 
+    {		
 	
 
 		.logo
-		{
-			
+		{			
 		 	position:absolute;
 			width: 20%;
 			left: 0px;
@@ -30,32 +52,12 @@ opacity: .4;
 		{
 			margin-left: 0px;
 		}
+        #navbarColor01{
+            margin-top: 70px;
+        }
 	}
-	
 
-	@media only screen and (min-width: 750px) 
-	{		
-		.logo{
-			position:absolute;
-			width: 10%;
-		 
-			 left:0px;
-			 top: 0px;
-		}
-		.bg-img.bg-half 
-		{
-	    	width: 50%;
-	    	background-attachment: scroll;
-		}
-		.data
-		{
-			margin-left: 55%;
-		}
-}
 
-.row{
-	margin: 0px;
-}
 body{
 	font-size: 14px;
 }
@@ -81,6 +83,16 @@ input.bg-dark.text-light {
     border-radius: 24px;
 }
 
+#filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: -35px;
+    top: 0px;
+    color: #7B7B7B;
+    cursor: pointer;
+    width: 0px;
+    font-size: 17px;
+}
 .slider{
   width: 100%;  
   display: block;
@@ -91,7 +103,7 @@ input.bg-dark.text-light {
   position: relative;
 }
 .content-heading {
-  background-image:url(5.jpg);
+/*  background-image:url(1.jpg);
    opacity: 0.5;
    position: absolute;
    z-index: -1;   
@@ -101,7 +113,23 @@ input.bg-dark.text-light {
     background-size: cover;
     width: 100%;
     height: 500px;
-
+*/
+}
+.content-heading::before{
+    content: '';
+    background-image: url(1.jpg);
+    filter: opacity(40%);
+    position: absolute;
+    top: 0;
+    left:15px;
+    right:15px;
+    bottom: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+   
 }
 .header-detail.navbar-nav
 {
@@ -135,7 +163,8 @@ input.bg-dark.text-light {
 
 
 .nav-item{
-	margin-left: 45px;
+	margin-left: 25px;
+    margin-right: 25px;
 }
 
 .secondary-button{
@@ -238,6 +267,9 @@ h3{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+.experience{
+    background-color: yellow;
+}
 .font{
     float: left;
     padding: 11px;
@@ -260,8 +292,15 @@ h3{
     z-index: 1;
     font-family: monospace;
     text-transform: capitalize;
+    background: -webkit-linear-gradient(#fc0e0e, #f6e1f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 24%;
+    margin-top: 10%;
   }
-.services-text h1 {
+/*.services-text h1 {
 
     background: -webkit-linear-gradient(#fc0e0e, #f6e1f8);
     -webkit-background-clip: text;
@@ -270,8 +309,7 @@ h3{
     font-size: 3rem;
    
 }
-} 
-  
+*/
 .carousel {
     position: relative;
     width: 100%;
@@ -343,4 +381,10 @@ div#demo img {
 }
 .footer-first ul li{
 padding: 15px;
+}
+
+
+/* start*/
+.contents {
+    margin-top: 40%;
 }
