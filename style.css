@@ -1,5 +1,5 @@
 /*.content-heading{
-	background-image: url(2.jpg);
+	background-image: url(5.jpg);
 	min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -103,7 +103,7 @@ input.bg-dark.text-light {
   position: relative;
 }
 .content-heading {
-/*  background-image:url(1.jpg);
+/*  background-image:url(5.jpg);
    opacity: 0.5;
    position: absolute;
    z-index: -1;   
