@@ -201,10 +201,7 @@ input.bg-dark.text-light {
     margin-top: 100px;
    /* margin-bottom: 100px;*/
 }
-h3{
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
+
 .background{
 	min-height: 500px;
     background-attachment: fixed;
@@ -269,6 +266,8 @@ h3{
 }
 .experience{
     background-color: yellow;
+    word-break: break-all;
+    text-align: center;
 }
 .font{
     float: left;
@@ -289,16 +288,15 @@ h3{
     position: relative;
 }
 .services-text {
-    z-index: 1;
+   
     font-family: monospace;
     text-transform: capitalize;
     background: -webkit-linear-gradient(#fc0e0e, #f6e1f8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-size: 3rem;
-    margin-left: 24%;
-    margin-top: 10%;
+    
+   
+   
   }
 /*.services-text h1 {
 
@@ -364,6 +362,7 @@ div#demo img {
 /*Footer part*/
 .footer-first ul{
   list-style: none;
+  padding:  0px !important;
 }
 .footer {
     background-color: black;
@@ -373,6 +372,7 @@ div#demo img {
 .footer-first{
   margin-top: 35px;
   margin-bottom: 35px;
+  text-align: center;
 }
 .copyright.row{
   margin: 0px;
@@ -380,7 +380,7 @@ div#demo img {
   color: white;
 }
 .footer-first ul li{
-padding: 15px;
+margin-bottom: 20px;
 }
 
 
@@ -388,3 +388,47 @@ padding: 15px;
 .contents {
     margin-top: 40%;
 }
+.contents_images{
+        transition: opacity 0.35s, -webkit-transform 0.35s;
+    -o-transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+}
+.contents_images:hover{
+transform: translate3d(0, 0, 0);
+}
+
+
+
+    /*jssor slider loading skin spin css*/
+    .jssorl-009-spin img {
+        animation-name: jssorl-009-spin;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-009-spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    /*jssor slider bullet skin 111 css*/
+    .jssorb111 .i {position:absolute;color:#fff;font-family:"Helvetica neue",Helvetica,Arial,sans-serif;text-align:center;cursor:pointer;z-index:0;}
+    .jssorb111 .i .n {display:none;}
+    .jssorb111 .i .b {fill:#fff;stroke:#000;stroke-width:500;stroke-miterlimit:10;stroke-opacity:.5;}
+    .jssorb111 .i:hover .b {fill:#fea900;stroke:#fea900;stroke-width:6000;stroke-opacity:1;}
+    .jssorb111 .iav .b {fill:#000;stroke-width:6000;stroke-opacity:1;}
+    .jssorb111 .i.idn {opacity:.3;}
+    .jssorb111 .iav .n, .jssorb111 .i:hover .n {display:block;}
+
+    /*jssor slider thumbnail skin 121 css*/
+    .jssort121 .p {position:absolute;top:0;left:0;border-bottom:1px solid rgba(255,255,255,.2);box-sizing:border-box;color:#fff;background:rgba(0,0,0,.1);opacity:.7;}
+    .jssort121 .p .t {position:absolute;padding:10px;box-sizing:border-box;top:0;left:0;width:100%;height:100%;line-height:24px;overflow:hidden;}
+    .jssort121 .p .i {margin-right:10px;position:relative;top:0;left:0;width:96px;height:48px;border:none;float:left;}
+    .jssort121 .pav, .jssort121 .p:hover {color:#000;background:rgba(255,255,255,.7);}
+    .jssort121 .p:hover {opacity:.75;}
+    .jssort121 .pav, .jssort121 .p:hover.pdn {opacity:1;}
+    .jssort121 .ti {position:relative;font-size:14px;font-weight:bold;}
+    .jssort121 .d {position:relative;font-size:12px;}
+    /*.jssort121 .d:before {content:'\a';white-space:pre;}*/
